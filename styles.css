@@ -1,0 +1,74 @@
+/* Low-res devices, screen width of 480px and below (i.e. cellphones) */
+@media only screen and (max-width: 480px) {
+	p {
+		color: blue;
+	}
+}
+
+/* Med-res devices, screen width of 481px - 1023px (i.e. tablets, smaller monitors) */
+@media only screen and (min-width: 481px) {
+	p {
+		color: red;
+	}
+}
+
+/* Hi-res devices, screen width of 1024 or higher (i.e. desktop displays, smart TVs) */
+@media only screen and (min-width: 1024px) {
+	p {
+		color: rgb(0,0,0);
+	}
+	body {
+		background: rgb(244,244,244);
+	}
+	#master {
+		background: rgb(255,255,255);
+		width: 960px;
+		margin: 0 auto;
+		border: 1px solid  rgb(0,0,0);
+	}
+	header {
+		width: 960px;
+		height: 130px;
+		background: rgb(200,200,200);
+	}
+	nav {
+		width: 960px;
+		height: 35px;
+		background: rgb(0,0,0);
+		text-align: center;
+		padding: 10px  0;
+		margin-bottom: 20px;
+	}
+	nav li {
+		display: inline;
+		margin-left: 10px;
+	}
+	nav li a {
+		color: rgb(255,255,255);
+	}
+	#slideshow {
+		width: 840px;
+		height: 300px;
+		border: 1px solid rgb(0,0,0);
+		margin: 20px auto;
+	}
+	.contentbox {
+		width: 300px;
+		background: rgb(200,200,200);
+		float: left;
+		border-top: 1px solid rgb(0,0,0);
+		border-bottom: 1px solid rgb(0,0,0);
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	article {
+		width: 940px;
+		margin-left: 10px;
+	}
+	.news {
+		margin-bottom: 20px;
+	}
+	footer nav {
+		margin-bottom: 0;
+	}
+}
