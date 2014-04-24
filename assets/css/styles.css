@@ -8,9 +8,35 @@
 /* Med-res devices, screen width of 481px - 1023px (i.e. tablets, smaller monitors) */
 @media only screen and (min-width: 481px) {
 	p {
-		color: red;
+		color: rgb(0,0,0);
 	}
+	body {
+		background: rgb(244,244,244);
+	}
+	#master {
+		background: rgb(255,255,255);
+		width: 95%;
+		margin: 0 auto;
+		border: 1px solid rgb(0,0,0);
+	}
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Hi-res devices, screen width of 1024 or higher (i.e. desktop displays, smart TVs) */
 @media only screen and (min-width: 1024px) {
